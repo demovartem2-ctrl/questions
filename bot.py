@@ -9,7 +9,7 @@ from aiogram.filters import CommandStart
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ["1780243336:u34zqUIG9LxtW9-ig_m5jOsCvpBqU-fO-V4"]
+TOKEN = os.environ["BOT_TOKEN"]
 PORT = int(os.environ.get("PORT", 8080))
 
 bot = Bot(token=TOKEN)
